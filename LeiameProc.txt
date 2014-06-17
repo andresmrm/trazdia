@@ -1,0 +1,78 @@
+PROC (versão pre-alfalfa)
+
+---------------------------------------------------------------------
+
+GERAL:
+
+Esse programa deve ajudar aqueles que querem fazer buscas nos Diários Oficiais, para saber se saiu algo novo que interesse.
+
+---------------------------------------------------------------------
+
+INSTALAÇÃO:
+
+Linux: 
+Apenas rode o script ".py":
+./proc.py
+ou
+python proc.py
+(Você precisa ter GTK, pyGTK, mechanize e python instalados)
+
+Windows:
+Descompacte o pacote em uma pasta e rode o executável "proc.exe"
+
+---------------------------------------------------------------------
+
+COMO USAR:
+
+-Rode o programa. (Ele vai procurar nos sites do governo pelas palavras que estão configuradas nele. Se é a primeira vez que você está rodando, provavelmente as palavras que estão configuradas não te interessam)
+-Ele vai abrir uma janela mostrando quantas referências ele achou no site do Diário Oficial da União.
+-Clique em "Alterar Palavras".
+-Uma nova janela deverá abrir, entre com as palavras que você quer procurar no Diário Oficial da União.
+-Dê "Ok" para voltar a janela de resultados.
+-Dê "Ok" de novo para continuar o programa
+-A janela vai fechar e ele tentará procurar no próximo site que conhece, o Diário Oficial de São Paulo. (Agora ainda está usando as palavras que vieram por padrão, o que deve ser lixo para você...)
+-Deve abrir uma janela com os resultados.
+-Clique em "Alterar Palavras".
+-Entre com as palavras que deseja procurar no Diário Oficial de São Paulo.
+-Dê "Ok" para voltar a janela de resultados.
+-Dê "Ok" de novo para continuar o programa
+-Ele deve fechar.
+
+*Agora você já alterou as palavras para buscas tanto no Diário Oficial da União como no Diário Oficial de São Paulo*
+
+-Rode o programa novamente para buscar por essas novas palavras
+-Ele vai mostrar os resultados para o Diário Oficial da União.
+-Se o número de resultados mudou, vai haver um botão para mostrar a página com os resultados. Clique nele e o programa tentará abrir o seu navegador com os resultados achados. (Você pode ver o diário clicando nos links, ou fazer novas buscas por lá também)
+-Voltando ao programa, se quiser novamente alterar as palavras de busca, clique no botão "Alterar Palavras", como feito anteriormente
+-Dê "Ok" na janela de resultados para procurar agora no Diário Oficial de São Paulo.
+-Assim como com o Diário Oficial da União, se o número de resultados mudou, vai haver um botão para mostrar a página com os resultados.
+-Depois de ver o que quiser, dê "Ok" e o programa fecha.
+
+*Se você rodar o programa, e o número de itens achados "antes" e "agora" forem iguais, quer dizer que nada mudou, não saíram novos jornais com as palavras buscadas*
+
+---------------------------------------------------------------------
+
+AVISOS:
+
+Pela forma como os sites são, exitem  algumas diferenças entre procurar em um ou em outro:
+
+Diário Oficial da União:
+Esse programa só procura nos diários de 01/01 do ano atual, até o dia atual. Logo se o ano mudar, ele só vai procurar nos diários do novo ano.
+
+Diário Oficial de São Paulo:
+Procura desde 2003. Se quiser colocar mais de uma palavra na busca, coloque "+" entre elas. NÃO USE " " (espaço), se não dá erro...
+Ex.:
+leis+governo
+
+---------------------------------------------------------------------
+
+
+Esse programa é SOFTWARE LIVRE! (Sob os termos da GNU General Public License)
+Isso quer dizer que você não precisa pagar por ele. =)
+Mas ele também não garante que funciona... =P
+Ele deve rodar tanto em Windows como no Linux, pois o código principal é em Python. Mas no Linux ele deve ficar mais "bonitinho", pois o GTK, biblioteca da interface gráfica, é nativa de lá.
+
+
+AUTOR:
+Andrés Mantecon Ribeiro Martano
+andresmrm@gmail.com
