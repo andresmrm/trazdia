@@ -13,11 +13,11 @@ ou
 python trazdia.py
 (Você precisa ter GTK, pyGTK, wget, pdftotext e python instalados)
 
-### JORNAIS SUPORTADOS
+### JORNAIS SUPORTADOS:
 
 Os sites dos jornais mudam e esse programa quase nunca tem manutenção. Logo, mais cedo ou mais tarde, alguns jornais não conseguem mais ser baixados.
 
-Em algum momento esse programa suportou esses diários:
+Em algum momento esse programa suportou esses diários (talvez ainda suporte, talvez não):
 
 - Diário Oficial da União: Todas as seções (1,2 e 3)
 - Diário Oficial de São Paulo: 2 seções (Executivo 1 e 2)
