@@ -41,8 +41,8 @@ Dentro da pasta "jornais" deve haver uma pasta uma pasta para cada buscador de j
 
 Ex.:
 
-Digamos que você tenha colocado esse programa na pasta "C:\Trazdia\", e que você tenha mandado ele baixar vários diários, entre eles o Diário da União, de 04/08/2009. E você queira ler a página 3 da seção 1.
-Ela estará no endereço: C:\Trazdia\jornais\Diario_Oficial_Uniao\2009_08_04\1_3.pdf
+Digamos que você tenha colocado esse programa na pasta "trazdia", e que você tenha mandado ele baixar vários diários, entre eles o Diário da União, de 04/08/2009. E você queira ler a página 3 da seção 1.
+Ela estará no endereço: trazdia/jornais/Diario_Oficial_Uniao/2009_08_04/1_3.pdf
 
 ## BUSCAS:
 
@@ -69,7 +69,5 @@ O pacote Windows já deve vir com uma versão desses dois programas própria par
 
 
 **AUTOR:**
-
 Andrés Mantecon Ribeiro Martano
-
-andresmrm no gmail.com
+(andresmrm no gmail.com)
