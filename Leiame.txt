@@ -1,66 +1,75 @@
 # TRAZDIA (versão pre-alfalfa)
 
-# GERAL:
+## GERAL:
 
 Esse programa deve ajudar aqueles que querem baixar os Diários Oficiais suportados por ele. Ou querem ficar procurando por palavras nesses diários. Útil para descobrir sobre novas leis que te afetam, ou montar um banco de dados com todos os diários baixados, para depois ficar fazendo buscas neles.
 Ele baixa os PDFs e depois os converte para texto. (As imagens e a formatação são perdidas)
 
-# INSTALAÇÃO:
+## INSTALAÇÃO:
 
-*Linux:*
 Apenas rode o script ".py":
 ./trazdia.py
 ou
 python trazdia.py
 (Você precisa ter GTK, pyGTK, wget, pdftotext e python instalados)
 
-# DICAS:
+## DICAS:
 
 - OS DIÁRIOS OFICIAIS COSTUMAM SER BEM GRANDES (cerca de 15Mb por dia). Logo, escolher a opção "guardar todos", pode custar bastante espaço. Por outro lado, se você não salvar todos, e depois alterar as "palavras buscadas", os PDFs que não estão no seu HD deverão ser baixados novamente...
 - Coloque o mouse sobre um dos botões do programa por alguns segundos para ver se aparece alguma ajuda sobre ele.
 - Caso um PDF já tenha sido baixado, ele não será baixado novamente. Se aconteceu algum erro em um PDF baixado ou você simplesmente quer que ele seja baixado novamente, vá até ele, na pasta onde está, e o delete.
 
-# COMO BAIXAR JORNAIS:
+## COMO BAIXAR JORNAIS:
 
-Clique no canto superior para abrir a lista de buscadores de jornais. Escolha um.
+- Clique no canto superior para abrir a lista de buscadores de jornais. Escolha um.
 (A tela deve mostrar agora as informações sobres esse buscador escolhido)
-Escolha a data inicial do lado esquerdo. (Data a partir de quando os jornais serão baixados)
-Em "guardar jornais" escolha se o programa deve guardar "todos" os jornais baixados, "nenhum" dos jornais, ou apenas aqueles em que ele "achar" uma das palavras chave procuradas.
-Clique embaixo, no meio, (uma janela vai abrir) para alterar as palavras chave procuradas. Coloque uma frase ou palavra chave por linha. (Se quiser deixar em branco, ele simplesmente vai baixar os jornais sem procurar nada neles...)
+- Escolha a data inicial do lado esquerdo. (Data a partir de quando os jornais serão baixados)
+- Em "guardar jornais" escolha se o programa deve guardar "todos" os jornais baixados, "nenhum" dos jornais, ou apenas aqueles em que ele "achar" uma das palavras chave procuradas.
+- Clique embaixo, no meio, (uma janela vai abrir) para alterar as palavras chave procuradas. Coloque uma frase ou palavra chave por linha. (Se quiser deixar em branco, ele simplesmente vai baixar os jornais sem procurar nada neles...)
 (Dê "Ok" para voltar a janela principal)
-Agora clique em "Baixar".
-O programa tentará baixar todas as páginas das seções do Diário escolhido, desde de a data inicial escolhida até o dia atual.
-Conforme os jornais vão sendo baixados a barrinha "Porcentagem Baixada:" deve ir aumentando.
+- Agora clique em "Baixar".
+- O programa tentará baixar todas as páginas das seções do Diário escolhido, desde de a data inicial escolhida até o dia atual.
+- Conforme os jornais vão sendo baixados a barrinha "Porcentagem Baixada:" deve ir aumentando.
 
 (No meio, na tela de "Informações", devem ir aparecendo dados sobre o que o programa está fazendo no momento)
 
-# JORNAIS BAIXADOS:
+## JORNAIS BAIXADOS:
 
 Caso você tenha escolhido para guardar alguns ou todos os jornais baixados, e tenha também mandado baixá-los, eles devem ficar na pasta "jornais". Esta, por sua vez, deve estar na mesma pasta onde esse programa foi colocado.
+
 Dentro da pasta "jornais" deve haver uma pasta uma pasta para cada buscador de jornal (ex.: Diario_Oficial_Uniao), e dentro de cada pasta do buscador deve haver uma pasta para cada dia do jornal baixado. Dentro de cada pasta dessas haverá um PDF para cada página do jornal e um txt para a versão texto dessa página. O nome da página é: "número da seção"_"número da página"
 
 Ex.:
+
 Digamos que você tenha colocado esse programa na pasta "C:\Trazdia\", e que você tenha mandado ele baixar vários diários, entre eles o Diário da União, de 04/08/2009. E você queira ler a página 3 da seção 1.
 Ela estará no endereço: C:\Trazdia\jornais\Diario_Oficial_Uniao\2009_08_04\1_3.pdf
 
-# BUSCAS:
+## BUSCAS:
 
 O programa baixa os PDFs dos sites do governo e os converte para arquivos texto. Esses são então vasculhados a procura das palavras especificadas.
+
 A busca diferencia maiúsculas de minúsculas, logo se você quer que ele encontre os dois casos, coloque a palavra duas vezes (uma vez em maiúscula outra em minúscula).
+
 Caso você já tenha mandado baixar alguns jornais e depois altere as palavras de busca, essas palavras NÃO serão procuradas nos jornais já baixados. Se quiser isso, clique no botão "Reiniciar" quando o buscador desejado estiver escolhido (nome dele deve estar aparecendo na parte de cima do programa). Clicando nesse botão o buscador esquecerá de todos os jornais que já baixou, e tentará baixá-los e procurar as palavras neles novamente. Caso você não tenha escolhido a opção de salvar esses jornais antes, eles não estão no seu HD, o que quer dizer que eles SERÃO baixados novamente.
 
 
-# FIM
+
+## FIM
 
 Esse programa é SOFTWARE LIVRE! (Sob os termos da GNU General Public License)
+
 Isso quer dizer que você não precisa pagar por ele. =)
+
 Mas ele também não garante que funciona... =P
+
 Ele deve rodar tanto em Windows como no Linux, pois o código principal é em Python. Mas no Linux ele deve ficar mais "bonitinho", pois o GTK, biblioteca da interface gráfica, é nativa de lá.
 
 Esse programa também utiliza dois programas de Linux: wget e pdftotext (os dois já devem estar instalados no seu Linux)
 O pacote Windows já deve vir com uma versão desses dois programas própria para esse sistema.
 
 
-AUTOR:
+**AUTOR:**
+
 Andrés Mantecon Ribeiro Martano
+
 andresmrm no gmail.com
