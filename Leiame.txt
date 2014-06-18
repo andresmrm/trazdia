@@ -13,6 +13,17 @@ ou
 python trazdia.py
 (Você precisa ter GTK, pyGTK, wget, pdftotext e python instalados)
 
+### JORNAIS SUPORTADOS
+
+Os sites dos jornais mudam e esse programa quase nunca tem manutenção. Logo, mais cedo ou mais tarde, alguns jornais não conseguem mais ser baixados.
+
+Em algum momento esse programa suportou esses diários:
+
+- Diário Oficial da União: Todas as seções (1,2 e 3)
+- Diário Oficial de São Paulo: 2 seções (Executivo 1 e 2)
+- Diário da Justiça: Todas as seções (1)
+- Diário da Justiça Federal: Todas as seções (1)
+
 ### DICAS:
 
 - OS DIÁRIOS OFICIAIS COSTUMAM SER BEM GRANDES (cerca de 15Mb por dia). Logo, escolher a opção "guardar todos", pode custar bastante espaço. Por outro lado, se você não salvar todos, e depois alterar as "palavras buscadas", os PDFs que não estão no seu HD deverão ser baixados novamente...
