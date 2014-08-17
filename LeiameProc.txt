@@ -75,4 +75,4 @@ Ele deve rodar tanto em Windows como no Linux, pois o código principal é em Py
 
 AUTOR:
 Andrés Mantecon Ribeiro Martano
-andresmrm@gmail.com
+email: andres no servidor inventati.org
