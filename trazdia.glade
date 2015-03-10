@@ -599,9 +599,6 @@ baixaram )</property>
           <widget class="GtkCalendar" id="calendario">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
-            <property name="year">2009</property>
-            <property name="month">6</property>
-            <property name="day">31</property>
           </widget>
           <packing>
             <property name="position">0</property>
